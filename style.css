@@ -1,0 +1,171 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+}
+
+body {
+    background: var(--bg-card);
+    font-family: 'Prompt';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--text);
+}
+
+h1 {
+    color: var(--text);
+    position: absolute;
+    width: 299px;
+    height: 18px;
+    left: 425px;
+    top: 22px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#card {
+    position: absolute;
+    width: 410px;
+    height: 576px;
+    left: 375px;
+    top: 65px;
+    color: var(--bg);
+    border: 25px solid var(--bg);
+    border-radius: 12%;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    left: -24px;
+    top: 10px;
+    width: 101px;
+    height: 37px;
+}
+
+.circle {
+    position: absolute;
+    width: 58px;
+    height: 56px;
+    border: 2px solid white;
+    border-radius: 28px;
+    left: 22px;
+    top: 24px;
+}
+
+.nome {
+    position: absolute;
+    width: 155.55px;
+    height: 18.47px;
+    left: 100px;
+    top: 33.5px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--text);
+}
+
+.photo {
+    position: absolute;
+    width: 333px;
+    height: 320.23px;
+    left: 89px;
+    top: 95px;
+    background: url(/Foguete.webp);
+    background-repeat: no-repeat;
+    border: 10px solid var(--img-profile);
+    border-radius: 50%;
+}
+
+.info {
+    position: absolute;
+    width: 192.5px;
+    height: 192.7px;
+    left: 24px;
+    top: 273px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #000000 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
+    border-radius: 50px;
+}
+
+ul {
+    top: 20px;
+    position: relative;
+}
+
+ul li {
+    margin-left: -0.75rem;
+    list-style: none;
+    margin-top: 1px;
+    top: 10px;
+}
+
+li {
+    display: flex;
+    list-style: none;
+}
+
+p {
+    color: var(--text);
+    font-size: 0.9375rem;
+    margin-left: 0.5rem;
+}
+
+.rocketcard {
+    position: absolute;
+    top: 475px;
+    left: 205px;
+    font-size: 20px;
+}
+
+.logoDown {
+    position: absolute;
+    top: 470px;
+    left: 180px;
+    width: 28px;
+    height: 34.32px;
+}
+
+button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 229px;
+    height: 59.47px;
+    left: 885px;
+    top: 300px;
+    color: var(--buttons);
+    background: var(--bg);
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.customizar {
+    position: absolute;
+    width: 225px;
+    height: 18px;
+    left: 875px;
+    top: 260px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
